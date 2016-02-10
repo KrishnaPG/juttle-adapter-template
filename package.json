@@ -1,0 +1,31 @@
+{
+  "name": "juttle-_ADAPTER_NAME_-adapter",
+  "version": "0.4.1",
+  "description": "Juttle adapter for ADAPTER_NAME",
+  "keywords": [
+    "juttle",
+    "adapter"
+  ],
+  "homepage": "https://github.com/juttle/juttle-ADAPTER_NAME-adapter",
+  "bugs": "https://github.com/juttle/juttle-ADAPTER_NAME-adapter/issues",
+  "license": "Apache-2.0",
+  "main": "lib/index.js",
+  "repository": "juttle/juttle-ADAPTER_NAME-adapter",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^1.1.1",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4"
+  },
+  "engines": {
+    "node": ">=4.2.0",
+    "npm": ">=2.14.7"
+  }
+}
