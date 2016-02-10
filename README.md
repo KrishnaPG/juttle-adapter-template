@@ -1,9 +1,8 @@
 # **INSTRUCTIONS**
 
-replace all occurences of `_ADAPTER_NAME_` with the name of the adapter you
-will be connecting **juttle** to and this template should be a good starting
-point for developing your adapter.
-
+Replace all occurences of `_ADAPTER_NAME_` with the name of the adapter you
+will be connecting [juttle](https://github.com/juttle/juttle) to and this
+template should be a good starting point for developing your adapter.
 
 # Juttle _ADAPTER_NAME_ Adapter
 
@@ -65,8 +64,7 @@ When writing data to _ADAPTER_NAME_ ...
 
 Name   | Type   | Required | Description
 -------|--------|----------|-------------
-`from` | moment | no       | select points after this time (inclusive)
-`to`   | moment | no       | select points before this time (exclusive)
+`...`  |  ...   | no       | ...
 
 
 ## Contributing

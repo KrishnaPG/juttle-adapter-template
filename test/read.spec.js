@@ -1,17 +1,17 @@
 'use strict';
 
-var expect = require('chai').expect;
-var juttle_test_utils = require('juttle/test/runtime/specs/juttle-test-utils');
-var check_juttle = juttle_test_utils.check_juttle;
+let expect = require('chai').expect;
+let juttle_test_utils = require('juttle/test/runtime/specs/juttle-test-utils');
+let check_juttle = juttle_test_utils.check_juttle;
 
-var config = [];
-var adapter = require('../lib')(config, Juttle);
-var Juttle = require('juttle/lib/runtime').Juttle;
+let config = [];
+let adapter = require('../lib')(config, Juttle);
+let Juttle = require('juttle/lib/runtime').Juttle;
 Juttle.adapters.register(adapter.name, adapter);
 
-describe('elastic source', function() {
+describe('_ADAPTER_NAME_ source', () => {
   
-    it('reads nothing back', function() {
+    it('reads nothing back', () => {
         return check_juttle({
             program: 'read _ADAPTER_NAME_ '
         })
