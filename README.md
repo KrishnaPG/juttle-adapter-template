@@ -4,6 +4,10 @@ Replace all occurences of `_ADAPTER_NAME_` with the name of the adapter you
 will be connecting [juttle](https://github.com/juttle/juttle) to and this
 template should be a good starting point for developing your adapter.
 
+Follow the [Adapter Test Checklist](https://github.com/juttle/juttle/wiki/Adapter-Test-Checklist) to add testcases at unit and integration test levels to the new adapter.
+
+Consult the [Adapter Publishing Checklist](https://github.com/juttle/juttle/wiki/Adapter-Publishing-Checklist) for proper packaging guidelines.
+
 # Juttle _ADAPTER_NAME_ Adapter
 
 [![Build Status](https://travis-ci.org/juttle/juttle-_ADAPTER_NAME_-adapter.svg?branch=master)](https://travis-ci.org/juttle/juttle-_ADAPTER_NAME_-adapter)
