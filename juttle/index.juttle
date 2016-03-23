@@ -1,0 +1,8 @@
+// In this file, export subgraphs, constants, and reducers that you
+// want to make available to juttle programs using your adapter.
+//
+// Juttle programs can import this file via:
+// import 'adapters/<adapter-name>' as AdapterModule;
+//
+// In turn, this file may import additional modules using paths
+// relative to this juttle file.
